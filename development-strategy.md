@@ -23,3 +23,19 @@
 - Using `Joi` middleware I can automate the validation process using predefined rules and error messages. 
 
 ---
+
+## 3. User Story: `PUT request, updating courses`
+
+- User must be able to put information to the server using REST  API commands, the server must process the request and give back a response the course updated.
+- The file `index.js` add the functionality to process incoming PUT request `/api/courses/:id` with the body containing a JSON object with the name property.
+- Refactored the code from the validation process so it is used as a function anywhere in the code. 
+
+---
+
+## 4. User Story: `DELETE request, deleting courses`
+
+- User must be able to put information to the server using REST  API commands, the server must process the request and give back a response the course deleted.
+- The file `index.js` add the functionality to process incoming DELETE request `/api/courses/:id` with no body.
+- Refactored some code for better readability.
+
+---
