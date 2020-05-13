@@ -39,3 +39,11 @@
 - Refactored some code for better readability.
 
 ---
+
+## 5. User Story: `Refactor to use file system`
+
+- The actions performed by the REST API must be saved to the local file system of the server, the `courses.json` file contains the JSON string serialization of the state in memory of the courses array, updated each time an operation is triggered.
+- The file `index.js` add the functionality to dump the state of the `courses` object to a JSON file stored in the local file system of the server, use of the `fs` library functions to read and write files in the secondary storage.
+- Refactored some code for better readability.
+
+---
