@@ -20,5 +20,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "joi": "^13.0.1"
-  }
+  },
+  "start": "node index.js"
 }
